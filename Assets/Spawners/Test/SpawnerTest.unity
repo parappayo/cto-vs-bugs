@@ -360,7 +360,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2133254842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5121c62e8ef951544b6c6e1c33da30f0, type: 3}
+  m_Script: {fileID: 11500000, guid: 33cf974992b127d45b0511973b9ee4e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Trigger:
@@ -379,6 +379,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+  Period: 0.2
 --- !u!114 &2133254844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,6 +391,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28bceef48a68eda488692e553bd8d369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Spawnable: {fileID: 1783953989728914, guid: 7c8320f9a634ea449af5d0b812c36858, type: 2}
+  Parent: {fileID: 2133254845}
+  Radius: 3
 --- !u!4 &2133254845
 Transform:
   m_ObjectHideFlags: 0
@@ -397,7 +401,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2133254842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.923443, y: -4.1839256, z: -3.815363}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
